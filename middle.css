@@ -21,7 +21,7 @@ nav{
     font-family: Arial;
     text-align: center;
     margin-top: 0px;
-    
+ 
 }
 nav a{
     display: inline-block;
@@ -33,32 +33,16 @@ nav a:hover{
     background-color: 	#EBD6D6;
     color: white;
 }
-.photo{
-    text-align: center;
 
-}
 main{
     padding: 20px;
-    font-family: ;
+    font-family: 標楷體 , Arial;
+    color: 	#B87070;
 }
 
 article{
     float: none;
-}
-.text{
-    float: right;  /* 文字在右邊 */
-    
-    padding: 20px 20px 0px 0px;
-
-}
-.intern img{
-    float: left;
-    margin-right: 10px;
-}
-.intern p{
-   
-    line-height: 20px;
-    overflow: hidden;
+    text-align: center;
 }
 
 .white{
@@ -71,6 +55,13 @@ article{
     display: inline-table
 }
 
+.topicon{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+}
 footer{
     background-color:#C48888 ;
     color: white;
